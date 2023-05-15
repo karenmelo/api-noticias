@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oSngi3upgc/FQdooWyGx0TlceM6r38g0UkTEZV8bBANEqiaQyymuiCvZ0kRJ2d6C6/0kBuK4Jujb9yTQp1eDlw==",
+  "dgSpecHash": "d0JNMv9tUGcXyBpOsK2g7Hf/Uf/1nbpcEfLxJ4RNo8/OTap+qk1WigOAbHTO0UAQJPpteE18darFpsdgZpK69g==",
   "success": true,
-  "projectFilePath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj",
+  "projectFilePath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\SistemaNoticias.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

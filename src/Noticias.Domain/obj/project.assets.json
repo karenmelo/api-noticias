@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj",
-      "projectName": "Noticias.Domain",
-      "projectPath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj",
+      "projectUniqueName": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\SistemaNoticias.Domain.csproj",
+      "projectName": "SistemaNoticias.Domain",
+      "projectPath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\SistemaNoticias.Domain.csproj",
       "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
       "outputPath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\obj\\",
       "projectStyle": "PackageReference",

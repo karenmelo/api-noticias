@@ -4,66 +4,6 @@
     "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Infra\\Noticias.Infra.csproj": {}
   },
   "projects": {
-    "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj",
-        "projectName": "Noticias.Domain",
-        "projectPath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj",
-        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
-        "outputPath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "c:\\program files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Infra\\Noticias.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -92,11 +32,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj": {
-                "projectPath": "E:\\Testes\\LBCA\\Noticias\\src\\Noticias.Domain\\Noticias.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

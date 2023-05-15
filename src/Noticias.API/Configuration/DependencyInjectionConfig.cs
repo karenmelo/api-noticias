@@ -1,18 +1,27 @@
-﻿using Noticias.Domain.Repository;
-using Noticias.Infra.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using SistemaNoticias.API.Extensions;
+using SistemaNoticias.Domain.Interfaces;
+using SistemaNoticias.Domain.Repository;
+using SistemaNoticias.Infra.Data;
+using SistemaNoticias.Infra.Repositories;
 
-namespace Noticias.API.Configuration
+namespace SistemaNoticias.API.Configuration
 {
     public static class DependencyInjectionConfig
     {
-        public static void RegisterServices(this IServiceCollection services)
+        public static void RegisterServices(this IServiceCollection services, IConfiguration configuration)
         {
+            //Infra
+            services.AddDbContext<NoticiasContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
             // API
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            //services.AddScoped<IAspNetUser, AspNetUser>();
+            services.AddScoped<IUsuario, AspNetUsuario>();
 
             //Repositories
             services.AddScoped<INoticiasRepository, NoticiasRepository>();
+            services.AddScoped<IClassificacaoNoticiasRepository, ClassificacaoNoticiasRepository>();
 
 
         }
